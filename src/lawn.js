@@ -1,4 +1,4 @@
-class Lawen {
+class Lawn {
     constructor(size) {
         console.log('Lawen');
         this.size = size;
@@ -7,4 +7,4 @@ class Lawen {
     create() {}
 }
 
-export default Lawen;
+export default Lawn;

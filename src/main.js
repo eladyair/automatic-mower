@@ -1,5 +1,9 @@
-import Lawen from '../lawen';
-import Mower from '../mower';
+require('babel-runtime/regenerator');
+require('./main.css');
+require('./index.html');
 
-var lawen = new Lawen();
+import Lawn from './lawn';
+import Mower from './mower';
+
+var lawn = new Lawn();
 var mower = new Mower();
